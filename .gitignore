@@ -1,0 +1,24 @@
+# Environments & Secret Keys
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Datasets & Large Files
+*.parquet
+*.jsonl
+!sample_wiki.jsonl.example
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
